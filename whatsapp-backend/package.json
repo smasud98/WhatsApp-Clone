@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shatil Masud",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.13",
+    "pusher": "^5.0.0"
+  }
+}
